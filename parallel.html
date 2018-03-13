@@ -1,0 +1,41 @@
+﻿<html>
+<meta charset="utf-8">
+<style>
+    svg {
+        font: 10px sans-serif;
+    }
+
+    .background path {
+        fill: none;
+        stroke: #ddd;
+        shape-rendering: crispEdges;
+    }
+
+    .foreground path {
+        fill: none;
+        stroke: steelblue;
+    }
+
+    .brush .extent {
+        fill-opacity: .3;
+        stroke: #fff;
+        shape-rendering: crispEdges;
+    }
+
+    .parallelAxis line,
+    .parallelAxis path {
+        fill: none;
+        stroke: #000;
+        shape-rendering: crispEdges;
+    }
+
+    .parallelAxis text {
+        text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+        cursor: move;
+    }
+</style>
+<body>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="parallelChart.js"></script>
+</body>
+</html>
